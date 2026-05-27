@@ -17,7 +17,7 @@ function keo_github_html_shortcode($atts) {
         return '<!-- keo_github_html: no file given -->';
     }
 
-    $base_url = 'https://raw.githubusercontent.com/TheSeibei/KEO_Website/main/';
+    $base_url = 'https://raw.githubusercontent.com/TheSeibei/KEO_HTML_managment/main/';
 
     // nur bestimmte Dateien erlauben
     $allowed_files = [
