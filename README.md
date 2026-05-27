@@ -73,4 +73,4 @@ Aus Sicherheitsgründen lädt das Plugin nur Dateien, die explizit in `$allowed_
 
 ## Wichtig
 
-Dieses Repository ist nur für statische HTML-Inhalte gedacht. WordPress-Plugins wie `helwacht-availability.php` gehören in ein eigenes Plugin-Repository und werden separat deployed.
+Dieses Repository ist nur für statische HTML-Inhalte gedacht. WordPress-Plugins gehören in ein eigenes Plugin-Repository und werden separat deployed.
