@@ -1919,6 +1919,10 @@
         })
         .slice()
         .sort((a, b) => {
+          const fachA = normalizeBadges(a.badges)[1] === 1 ? 0 : 1;
+          const fachB = normalizeBadges(b.badges)[1] === 1 ? 0 : 1;
+          if (fachA !== fachB) return fachA - fachB;
+
           const cmp = sortKey(a).localeCompare(sortKey(b), "de", { sensitivity: "base" });
           if (cmp !== 0) return cmp;
           return String(a.name).localeCompare(String(b.name), "de", { sensitivity: "base" });
